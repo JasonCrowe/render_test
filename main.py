@@ -25,9 +25,7 @@ def home():
             inset: 0;
             z-index: -1;
             content: "";
-            background:
-              radial-gradient(circle at 20% 0%, #e9f4ff 0, transparent 32rem),
-              radial-gradient(circle at 80% 8%, #f5eaff 0, transparent 28rem);
+            background: linear-gradient(135deg, #e4f8ec 0%, #f8fbff 50%, #e1ecff 100%);
           }
           main { width: min(1100px, calc(100% - 40px)); margin: auto; }
           nav {
