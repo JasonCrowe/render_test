@@ -1,6 +1,6 @@
 [project]
 name = "render-test"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.14"
-dependencies = []
+description = "Minimal Flask app for testing Render auto-deploys"
+requires-python = ">=3.11"
+dependencies = ["flask>=3.1,<4", "gunicorn>=23,<24"]
